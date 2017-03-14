@@ -12,6 +12,7 @@ deploy:
   image: ibmclouddevops/drone-bluemix-cloudfoundry
   org: cloud
   space: devops
+  user: ${USER}
   when:
     branch: master
 ```

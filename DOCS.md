@@ -2,14 +2,14 @@ Use this plugin for deploying an application to Cloud Foundry. This is a bash sc
 that uses the Cloud Foundry CLI to login and deploy. More info and documentation about 
 the CLI can be found [here](https://github.com/cloudfoundry/cli)
 
+
 ## Example
 
 ```yaml
 deploy:
-  image: cheslip/drone-cloudfoundry
-  api: api.run.pivotal.io
-  org: pivotal
-  space: production
+  image: ibmclouddevops/drone-bluemix-cloudfoundry
+  org: cloud
+  space: devops
   when:
     branch: master
 ```

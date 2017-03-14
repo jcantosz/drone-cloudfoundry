@@ -18,7 +18,8 @@ deploy:
 
 | Option | Description | Example |
 | ------ | ----------- | ---- |
-| `api` (**required**) | Target API | `api.run.pivotal.io` |
+| `region` | Target region | `ng OR eu-gb OR au-sdy` |
+| `api` | Target API | `api.ng.bluemix.net` |
 | `org` (**required**) | Target Org | `xyz-org` |
 | `space` (**required**) | Target Space | `development` |
 | `user` (**required**) | Auth username | `john@doe.com` |

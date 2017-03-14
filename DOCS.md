@@ -51,7 +51,6 @@ deploy:
 
 All required fields are also supported by secrets:
 
-- `CF_API`
 - `CF_USER`
 - `CF_PASSWORD`
 - `CF_ORG`

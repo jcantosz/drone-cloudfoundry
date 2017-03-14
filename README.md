@@ -7,7 +7,6 @@ For the usage information and a listing of the available options please take a l
 
 ```sh
 docker run --rm \
-    -e PLUGIN_API=<api> \
     -e PLUGIN_USER=<username> \
     -e PLUGIN_PASSWORD=<password> \
     -e PLUGIN_ORG=<org> \
@@ -22,5 +21,5 @@ docker run --rm \
 Build the docker image with the following commands:
 
 ```sh
-docker build --rm=true -t cheslip/drone-cloudfoundry .
+docker build --rm=true -t ibmclouddevops/drone-bluemix-cloudfoundry .
 ```

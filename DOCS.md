@@ -2,6 +2,8 @@ Use this plugin for deploying an application to Cloud Foundry. This is a bash sc
 that uses the Cloud Foundry CLI to login and deploy. More info and documentation about 
 the CLI can be found [here](https://github.com/cloudfoundry/cli)
 
+If both `api` and `region` are set, `api` will be used. If no region is set, the `ng` region will be used, and the API targetted wil be `https://api.ng.bluemix.net`
+
 
 ## Example
 

@@ -31,7 +31,7 @@ deploy:
 | `command` | Startup command | `start-script.sh` |
 | `domain` | Domain | `example.com` |
 | `manifest` | Path to manifest | `test.manifest.yml` |
-| `docker_image` | Image name | `cheslip/drone-cloudfoundry` |
+| `docker_image` | Image name | `ibmclouddevops/drone-bluemix-cloudfoundry` |
 | `instances` | Number of instances | `4` |
 | `disk` | Disk limit | `256M` |
 | `memory` | Memory limit | `1G` |
